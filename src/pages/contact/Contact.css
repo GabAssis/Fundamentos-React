@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Quicksand:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Montserrat:wght@300;800&family=Quicksand:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#logo img{
+    width: 6.5rem;
+    margin-left: 0.25rem;
+    margin-right: 0.7rem;
+   
+}
+
+#logo span{
+    margin-left: 2rem;
+}
+
+#logo{
+    display: flex;
+    width: 4rem;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.9rem;
+    font-family: 'Quicksand', sans-serif;
+    color: #EFE1D1;
+    white-space: nowrap;
+    
+}
+
+
+
+#nav{
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: #331D2C;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 3.5rem;
+    position: fixed;
+   
+}
+
+
+
+#menuheader{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+    align-items: center;
+    list-style: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #8FC0A9;
+      
+}
+
+#menuheader a{
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #C8D5B9;
+}
+
+#menuheader a:hover{
+    color: #8FC0A9;
+    
+}
+
+#body{
+    background-color: #3F2E3E;  
+    top: 0;
+    margin: 0;
+    
+}
+
+#formulario_mensagem{
+    font-family: 'Montserrat', sans-serif;
+    padding: 12PX 12PX 12PX 12PX;
+    background-color: #C8D5B9;
+    width: 30rem;
+    margin: 4.52rem;
+    border-radius: 0.6rem;
+}
+
+#campos-form input{
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    resize: vertical ;
+    background-color: #C8D5B9;
+  }
+  
+#campos-form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; 
+    border: 0.15rem solid #3F2E3E;
+    border-radius: 0.4rem;
+    box-sizing: border-box;
+    resize: vertical ;
+    background-color: #C8D5B9;
+  }
+
+
+#formulario_mensagem h2{
+    margin-bottom: 0.5rem;
+}
+
+#formulario_mensagem button{
+    border: 0;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: #3F2E3E;
+    color: #EFE1D1;
+    cursor: pointer;
+}
+
+#formulario_mensagem button:hover{
+    scale: 1.01;
+    background-color: #331D2C;
+}
+
+#campos-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20rem;
+    margin-bottom: 0.8rem;
+    
+}
+
+
+    
+
+
+#footer{
+    display: flex-end;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: #331D2C;
+    margin-top: 27.5rem;
+}
+
+#redes_sociais img{
+
+    width: 1rem;
+    height: 1rem;
+    
+}
