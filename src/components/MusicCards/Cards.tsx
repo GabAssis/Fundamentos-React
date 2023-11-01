@@ -33,7 +33,7 @@ function MusicCards({ Nome, Imagem, MFrame }: CardsProps) {
                     marginTop: "0.8rem",
                 }}
                     src={Imagem} alt="Music Card" />
-                <iframe style={{ borderRadius: "12px" }} src={MFrame} width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style={{ borderRadius: "12px" }} src={MFrame} width="100%" height="152" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
 
             
