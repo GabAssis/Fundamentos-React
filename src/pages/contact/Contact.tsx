@@ -16,19 +16,20 @@ function Contact() {
     }, [isEnviado])
 
     return (
-        <div >
-            <div id="nav" >
+        <>
+        <body >
+            <nav>
                 <div id="logo">
                     <img src="src/assets/images/chuusig.png" alt="" />
                     <span >Portifólio Chuu</span>
                 </div>
-                <ul id="menuheader">
+                <ul className="menuheader">
                     <li><a href="src/pages/home/Home.tsx">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#video">Vídeo</a></li>
                     <li><a href="src/pages/contact/Contact.tsx">Contato</a></li>
                 </ul>
-            </div>
+            </nav>
 
             <div id="contato">
                 <div id="formulario_mensagem">
@@ -48,7 +49,7 @@ function Contact() {
 
             </div>
 
-            <div id="footer">
+            <footer>
                 <div id="redes_sociais">
                     <a href="http://linkedin.com" target="_blank">
                         <img id="icons" src="src/assets/images/linkedin.png" alt="Linkedin" />
@@ -61,10 +62,9 @@ function Contact() {
                     </a>
                 </div>
                 <p id="by">Desenvolvido por Gabriel - 2023 &copy;</p>
-            </div>
-            <script src="src/pages/script.js"> </script>
-        </div>
-        
+            </footer>
+        </body>
+        </>
     )
 }
 

@@ -1,9 +1,10 @@
 
+import MusicCards from "../../components/MusicCards/Cards";
 import "./Home.css";
 
 function Home() {
     return (
-        <div >
+        <body>
             <div id="nav" >
                 <div id="logo">
                     <img src="src/assets/images/chuusig.png" alt="" />
@@ -11,8 +12,8 @@ function Home() {
                 </div>
                 <ul id="menuheader">
                     <li><a href="">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#video">Vídeo</a></li>
+                    <li><a href="#nav">Sobre</a></li>
+                    <li><a href="#meu_video">Vídeo</a></li>
                     <li><a href="">Contato</a></li>
                 </ul>
             </div>
@@ -44,12 +45,20 @@ function Home() {
                 <p>Obrigada ❤</p>
 
             </div>
-            <div id="spotify">
-                <h5>Perfil Spotify</h5>
+            <div className="titleh2" style={{ fontSize: "2rem" }}>
+                <h2 >MÚSICAS RELEVANTES</h2>
+            </div>
+            <div className="MusicCards">
+                <MusicCards Nome="Heart Attack" Imagem="src/assets/images/HeartAttack.png" MFrame="https://open.spotify.com/embed/track/6SSC9KZQaxBdyipKRigrFC?utm_source=generator&theme=0" />
+                <MusicCards Nome="Howl" Imagem="src/assets/images/Howl.png" MFrame="https://open.spotify.com/embed/track/17cciVZC83EP26VENr3J5n?utm_source=generator" />
+                <MusicCards Nome="Girl's Talk" Imagem="src/assets/images/HeartAttack.png" MFrame="https://open.spotify.com/embed/track/1j3zXAq0W9cLIpiAXwcYXF?utm_source=generator" />
+                <MusicCards Nome="Aliens" Imagem="src/assets/images/Howl.png" MFrame="https://open.spotify.com/embed/track/1FS27YH6ra3pkwNDnIHIfa?utm_source=generator" />
+                <MusicCards Nome="Lullaby" Imagem="src/assets/images/lullaby.png" MFrame="https://open.spotify.com/embed/track/7el09AiwrCGGZW8rsSvbc1?utm_source=generator" />
 
-                <iframe style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/artist/1q86WVZhETqii5kKjEwYuB?utm_source=generator&theme=0" width="80%" height="352" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
 
             </div>
+
 
             <div id="footer">
                 <div id="redes_sociais">
@@ -66,7 +75,7 @@ function Home() {
                 <p id="by">Desenvolvido por Gabriel - 2023 &copy;</p>
             </div>
 
-        </div>
+        </body>
     )
 }
 

@@ -10,9 +10,10 @@ interface FormProps {
 }
 
 function Form({ Nome, DescricaoE, Email, DescricaoM, Mensagem, DescricaoMe}: FormProps) {
+            
    
     return (
-
+        <>
         <form id="forms">
             <div id="campos-form">
                 <label id="nome">{Nome}</label>
@@ -22,7 +23,7 @@ function Form({ Nome, DescricaoE, Email, DescricaoM, Mensagem, DescricaoMe}: For
             </div>
             <div id="campos-form">
                 <label id="email">{Email}</label>
-                <input id="email" name="email" type="email"
+                <input  id="email" name="email" type="email"
                     placeholder={DescricaoM} />
                 <div id="txtEmail"></div>
             </div>
@@ -33,8 +34,9 @@ function Form({ Nome, DescricaoE, Email, DescricaoM, Mensagem, DescricaoMe}: For
                 <div id="txtMensagem"></div>
             </div>
             
-
         </form>
+        <script src="src/pages/script.js"> </script>
+        </>
     )
 }
 

@@ -34,7 +34,7 @@
 
 
 
-#nav{
+nav{
     top: 0;
     width: 100%;
     display: flex;
@@ -48,7 +48,7 @@
 
 
 
-#menuheader{
+.menuheader{
     width: 30%;
     display: flex;
     justify-content: space-between;
@@ -60,24 +60,20 @@
       
 }
 
-#menuheader a{
+.menuheader a{
     border: none;
     cursor: pointer;
     text-decoration: none;
     color: #C8D5B9;
 }
 
-#menuheader a:hover{
+.menuheader a:hover{
     color: #8FC0A9;
     
 }
 
-#body{
-    background-color: #3F2E3E;  
-    top: 0;
-    margin: 0;
-    
-}
+
+
 
 #formulario_mensagem{
     font-family: 'Montserrat', sans-serif;
@@ -141,7 +137,7 @@
     
 
 
-#footer{
+footer{
     display: flex-end;
     padding: 1rem;
     flex-direction: column;

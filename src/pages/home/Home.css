@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+
+body{
+    background-color:#3F2E3E;
+}
 #main{
     background-color: #7A7366 ;
 }
@@ -114,6 +118,25 @@
 
 #texto_sobre{
     margin-right: 2rem;
+}
+
+
+.titleh2{
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand", sans-serif;
+    color: #EFE1D1;
+    
+}
+.MusicCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: "Quicksand", sans-serif;
 }
 
 #sobre img{
